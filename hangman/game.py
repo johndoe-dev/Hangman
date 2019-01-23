@@ -1,6 +1,11 @@
 # importing the time module
 import time
 
+try:
+    input = raw_input
+except NameError:
+    pass
+
 # welcoming the user
 name = input("What is your name? ")
 
@@ -62,7 +67,6 @@ while turns > 0:
 
     # set the players guess to guesses
     guesses += guess
-    print(guesses)
 
     # if the guess is not found in the secret word
     if guess not in word:
