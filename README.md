@@ -4,7 +4,7 @@ Simple jeu du pendu
 
 
 ## Configuration
-Python3
+Compatibility Python2 - Python3
 
 
 ## Play
