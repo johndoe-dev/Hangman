@@ -1,13 +1,13 @@
-#HANGMAN
+# HANGMAN
 
 Simple jeu du pendu
 
 
-##Configuration
+## Configuration
 Python3
 
 
-##Play
+## Play
 On terminal:
 
 Launch cmd
